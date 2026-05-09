@@ -1,0 +1,281 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.div {
+    display: flex;
+    width: 70%;
+   
+    justify-content: center;
+    margin: auto;
+
+}
+
+.firstDiv {
+    height: 100vh;
+    width: 50%;
+    background-color: white;
+
+
+    /* background-color: red; */
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 38px;
+    
+    margin-right: 37px;
+    margin-top: 28px;
+    /* gap: 20px; */
+    color: rgb(145, 145, 145);
+    font-weight: 200;
+
+
+}
+
+.whiteSecond {
+    width: 250px;
+    height: 37.5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 17px;
+    background-color: rgb(239, 239, 239);
+   padding-left: 10PX;
+    border-radius: 50px;
+}
+.bar{
+   
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.whiteFirst {
+    color: rgb(19, 45, 37);
+    font-size: 25px;
+    font-weight: 700;
+   
+}
+
+
+.secondDiv {
+    background-color: rgb(188, 60, 48);
+    height: 100vh;
+    width: 50%;
+    
+}
+
+.navRight {
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 38px;
+    
+    
+    margin-top: 18px;
+    /* gap: 20px; */
+    
+    font-weight: 300;
+    font-size: 14.5px;
+    
+    list-style-type: none;
+    
+    color: rgb(241, 217, 213);
+    padding: 30px;
+}
+
+.product-container {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Moves it back by half its own size */
+    z-index: 10;
+}
+
+.product-container img {
+    height: 500px;
+}
+
+.whitediv {
+    /* background-color: blue; */
+    height: 80%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 130px;
+    padding: 0px 15px;
+    /* background-color: blue; */
+    gap: 40px;
+
+
+
+
+}
+
+.whiteList {
+    
+    font-size: 12.5pt;
+    font-weight: 500;
+    /* bottom: 60px; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    
+    width: 50%;
+    height: 100%;
+   
+    gap:10px;
+
+}
+
+.classification {
+    color: rgb(17, 42, 36);
+    rotate: -90deg;
+    transform: skewX(-13deg);
+    font-size: 36pt;
+    font-weight: 500;
+    margin-bottom: 72px;
+    letter-spacing: 2px;
+
+    width: 50%;
+}
+
+.whiteList h4 {
+    color: rgb(17, 17, 19);
+    font-size: 16px;
+
+}
+
+.whiteList p {
+    color: rgb(77, 80, 81);
+     font-size: 14px;
+     
+}
+.whiteList .div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+    /* background-color: blueviolet; */
+    
+    
+}
+li::marker{
+    color: rgb(185,54,44);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.redDiv{
+    /* background-color: blue; */
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: blanchedalmond; */
+   margin-left: 150px;
+   margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+
+   
+    
+    
+   
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.heading{
+    
+    font-size: 40px;
+    color: rgb(249,239,239);
+}
+.redDiv img{
+   
+    height: 100px;
+    flex: 1;
+    
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+.details .hr{
+    rotate: 90deg;
+}
+.infodiv{
+    color: rgb(225,197,156);
+    display: flex;
+    gap: 10px;
+    
+}
+.infodiv p{
+    color: rgb(245, 241, 241);
+}
+.infodiv i {
+   font-size: 25px;
+}
+.coloum-divider{
+    border-left: 2px solid #ccc;
+    height: 100px;
+}
+.others{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 15px;
+    /* background-color: antiquewhite; */
+    width: 70%;
+
+}
+.others .price{
+    font-size: 32px;
+    
+    color: rgb(247,214,170);
+}
+.others p i{
+    font-size: 28px;
+} 
+.others p{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+   
+    gap: 10px;
+    font-weight: 200;
+}
+.button{
+    background-color: rgb(218,188,146);
+    color: black;
+    padding: 12px 40px;
+    font-size: 13px;
+    border-radius: 8px;
+}
